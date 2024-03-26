@@ -1,0 +1,41 @@
+{
+  "name": "@isekaimaouyoki-sama/fastify-i18njs",
+  "version": "1.0.0",
+  "description": "The wrapper for i18n-js being used in fastify framework",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "license": "ISC",
+  "scripts": {
+    "preinstall": "npx rollup index.js --file index.cjs --format cjs"
+  },
+  "author": {
+    "email": "nhat11092000@gmail.com",
+    "name": "isekaimaou1109",
+    "url": "https://github.com/isekaimaou1109"
+  },
+  "keywords": [
+    "i18n",
+    "i18njs",
+    "fastify",
+    "fastify-i18njs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekaimaou1109/fastify-i18njs.git"
+  },
+  "homepage": "https://github.com/isekaimaou1109/fastify-i18njs#readme",
+  "bugs": {
+    "url": "https://github.com/isekaimaou1109/fastify-i18njs/issues",
+    "email": "nhat11092000@gmail.com"
+  },
+  "devDependencies": {
+    "rollup": "^4.13.0"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.1",
+    "i18n-js": "^4.4.3"
+  }
+}
